@@ -35,7 +35,7 @@ define('DB_USER', 'wp_user');
 define('DB_PASSWORD', 'hogehoge');
 
 /** MySQL のホスト名 */
-define('DB_HOST', 'db:3306');
+define('DB_HOST', 'database:3306');
 
 /** データベースのテーブルを作成する際のデータベースの文字セット */
 define('DB_CHARSET', 'utf8mb4');
