@@ -1,5 +1,7 @@
-# FROM nginx:1.11.12
-FROM ehekatl/docker-nginx-http2
+FROM nginx:1.13.5-alpine
+
+# ツールをインストール
+RUN apk --update add openssl
 
 # 自己証明書を発行
 RUN openssl genrsa 2048 > server.key \
